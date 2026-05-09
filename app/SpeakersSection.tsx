@@ -16,7 +16,7 @@ function FeaturedSpeakerItem({
   bio?: string;
   image?: string;
 }) {
-  const imgSrc = image ?? '/ost/images/pexels-amir-esrafili-6274712.jpg';
+  const imgSrc = image ?? '/images/pexels-amir-esrafili-6274712.jpg';
   return (
     <div className="speaker-item">
       <div className="speaker-image-wrapper">
@@ -81,7 +81,7 @@ function GridSpeakerItem({
   org: string;
   image?: string;
 }) {
-  const imgSrc = image ?? '/ost/images/pexels-amir-esrafili-6274712.jpg';
+  const imgSrc = image ?? '/images/pexels-amir-esrafili-6274712.jpg';
   return (
     <div className="speaker-item">
       <div className="speaker-image-wrapper">

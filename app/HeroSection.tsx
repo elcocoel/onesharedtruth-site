@@ -4,22 +4,22 @@ const SPONSOR_URL = 'https://tally.so/r/44892Y';
 
 const themes = [
   {
-    icon: '/ost/images/Arbitrage.svg',
+    icon: '/images/Arbitrage.svg',
     title: 'Arbitrage',
     text: 'Market efficiency in fragmented digital markets',
   },
   {
-    icon: '/ost/images/Tokenization-Apple.svg',
+    icon: '/images/Tokenization-Apple.svg',
     title: 'TOKENIZATION',
     text: 'Of traditional and non-traditional assets',
   },
   {
-    icon: '/ost/images/STABLE.svg',
+    icon: '/images/STABLE.svg',
     title: 'Stablecoins',
     text: 'As payment, settlement, and liquidity rails',
   },
   {
-    icon: '/ost/images/Exposure-Apple.svg',
+    icon: '/images/Exposure-Apple.svg',
     title: 'exposure',
     text: 'Taking on portfolio positions on the ecosystem',
   },
@@ -124,13 +124,13 @@ export function HeroSection() {
             <div className="hero-image-wrapper">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/ost/images/Website-hero-test-image.png"
+                src="/images/Website-hero-test-image.png"
                 alt=""
                 className="hero-image"
                 loading="eager"
                 width={1920}
                 height={1080}
-                srcSet="/ost/images/Website-hero-test-image-p-500.png 500w, /ost/images/Website-hero-test-image-p-800.png 800w, /ost/images/Website-hero-test-image-p-1080.png 1080w, /ost/images/Website-hero-test-image-p-1600.png 1600w, /ost/images/Website-hero-test-image.png 1920w"
+                srcSet="/images/Website-hero-test-image-p-500.png 500w, /images/Website-hero-test-image-p-800.png 800w, /images/Website-hero-test-image-p-1080.png 1080w, /images/Website-hero-test-image-p-1600.png 1600w, /images/Website-hero-test-image.png 1920w"
                 sizes="(max-width: 1920px) 100vw, 1920px"
               />
               <div className="corner-cut-header w-embed">

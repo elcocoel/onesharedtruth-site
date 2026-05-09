@@ -51,7 +51,7 @@ export function OSTNav() {
         <a href="/ost" className="logo w-nav-brand w--current" aria-current="page">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/ost/images/1STC---Logomark--Large-Knight.svg"
+            src="/images/1STC---Logomark--Large-Knight.svg"
             alt="One Shared Truth"
             width={120}
             height={80}

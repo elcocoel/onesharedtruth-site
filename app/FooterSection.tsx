@@ -17,7 +17,7 @@ export function FooterSection() {
               </a>
             </div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/ost/images/Vector-1.svg" alt="" width={8} height={24} loading="lazy" className="image-5" />
+            <img src="/images/Vector-1.svg" alt="" width={8} height={24} loading="lazy" className="image-5" />
             <div>
               <a
                 href="https://www.fordham.edu/gabelli-school-of-business/industry-collaborations/family-stewardship-council/"
@@ -30,7 +30,7 @@ export function FooterSection() {
               </a>
             </div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/ost/images/Vector-1.svg" alt="" width={8} height={24} loading="lazy" className="image-5" />
+            <img src="/images/Vector-1.svg" alt="" width={8} height={24} loading="lazy" className="image-5" />
             <div>
               <a
                 href="https://www.fordham.edu/gabelli-school-of-business/"

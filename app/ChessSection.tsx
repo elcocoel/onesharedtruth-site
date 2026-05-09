@@ -14,12 +14,12 @@ export function ChessSection() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/ost/images/Paintingcropped.png"
+                src="/images/Paintingcropped.png"
                 alt=""
                 loading="lazy"
                 width={1198}
                 height={800}
-                srcSet="/ost/images/Paintingcropped-p-500.png 500w, /ost/images/Paintingcropped-p-800.png 800w, /ost/images/Paintingcropped-p-1080.png 1080w, /ost/images/Paintingcropped.png 1198w"
+                srcSet="/images/Paintingcropped-p-500.png 500w, /images/Paintingcropped-p-800.png 800w, /images/Paintingcropped-p-1080.png 1080w, /images/Paintingcropped.png 1198w"
                 sizes="(max-width: 1198px) 100vw, 1198px"
               />
             </div>
@@ -50,7 +50,7 @@ export function ChessSection() {
             </div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/ost/images/Vector.svg"
+              src="/images/Vector.svg"
               alt=""
               width={72}
               height={24}
@@ -64,7 +64,7 @@ export function ChessSection() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/ost/images/1STC---Knight.svg"
+                src="/images/1STC---Knight.svg"
                 alt=""
                 width={200}
                 height={200}

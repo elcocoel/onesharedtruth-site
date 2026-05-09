@@ -54,7 +54,7 @@
 
 @font-face {
   font-family: Kola;
-  src: url('/ost/fonts/Kola-Regular.woff') format("woff");
+  src: url('/fonts/Kola-Regular.woff') format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -62,7 +62,7 @@
 
 @font-face {
   font-family: owners-xnarrow;
-  src: url('/ost/fonts/owners-xnarrow-500-normal.woff2') format("woff2");
+  src: url('/fonts/owners-xnarrow-500-normal.woff2') format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -70,7 +70,7 @@
 
 @font-face {
   font-family: owners-xnarrow;
-  src: url('/ost/fonts/owners-xnarrow-900-normal.woff2') format("woff2");
+  src: url('/fonts/owners-xnarrow-900-normal.woff2') format("woff2");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -78,7 +78,7 @@
 
 @font-face {
   font-family: owners-xnarrow;
-  src: url('/ost/fonts/owners-xnarrow-500-italic.woff2') format("woff2");
+  src: url('/fonts/owners-xnarrow-500-italic.woff2') format("woff2");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -86,7 +86,7 @@
 
 @font-face {
   font-family: owners-xnarrow;
-  src: url('/ost/fonts/owners-xnarrow-900-italic.woff2') format("woff2");
+  src: url('/fonts/owners-xnarrow-900-italic.woff2') format("woff2");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -94,7 +94,7 @@
 
 @font-face {
   font-family: Moderngothic;
-  src: url('/ost/fonts/ModernGothic-Medium.otf') format("opentype");
+  src: url('/fonts/ModernGothic-Medium.otf') format("opentype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -102,7 +102,7 @@
 
 @font-face {
   font-family: Moderngothic;
-  src: url('/ost/fonts/ModernGothic-Regular.otf') format("opentype");
+  src: url('/fonts/ModernGothic-Regular.otf') format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -110,7 +110,7 @@
 
 @font-face {
   font-family: Moderngothic;
-  src: url('/ost/fonts/ModernGothic-BoldItalic.otf') format("opentype");
+  src: url('/fonts/ModernGothic-BoldItalic.otf') format("opentype");
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -118,7 +118,7 @@
 
 @font-face {
   font-family: Moderngothic;
-  src: url('/ost/fonts/ModernGothic-LightItalic.otf') format("opentype");
+  src: url('/fonts/ModernGothic-LightItalic.otf') format("opentype");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -126,7 +126,7 @@
 
 @font-face {
   font-family: Moderngothic;
-  src: url('/ost/fonts/ModernGothic-MediumItalic.otf') format("opentype");
+  src: url('/fonts/ModernGothic-MediumItalic.otf') format("opentype");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -134,7 +134,7 @@
 
 @font-face {
   font-family: Moderngothic;
-  src: url('/ost/fonts/ModernGothic-Italic.otf') format("opentype");
+  src: url('/fonts/ModernGothic-Italic.otf') format("opentype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -142,7 +142,7 @@
 
 @font-face {
   font-family: Moderngothic;
-  src: url('/ost/fonts/ModernGothic-Light.otf') format("opentype");
+  src: url('/fonts/ModernGothic-Light.otf') format("opentype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -150,7 +150,7 @@
 
 @font-face {
   font-family: Moderngothic;
-  src: url('/ost/fonts/ModernGothic-Bold.otf') format("opentype");
+  src: url('/fonts/ModernGothic-Bold.otf') format("opentype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -911,7 +911,7 @@ figcaption {
 .section.accent {
   background-color: var(--coal);
   color: var(--100);
-  background-image: url('/ost/images/bg-no-alpha2.jpg');
+  background-image: url('/images/bg-no-alpha2.jpg');
   background-position: 0 0;
   background-size: auto;
 }
@@ -923,7 +923,7 @@ figcaption {
 .section.secondary {
   background-color: var(--coal);
   color: var(--100);
-  background-image: linear-gradient(#231f20d4, #231f20d4), url('/ost/images/1STC---Logomark--Large-Knight.svg'), url('/ost/images/FordhamF.svg');
+  background-image: linear-gradient(#231f20d4, #231f20d4), url('/images/1STC---Logomark--Large-Knight.svg'), url('/images/FordhamF.svg');
   background-position: 0 0, 3%, 50%;
   background-repeat: repeat, no-repeat, repeat;
   background-size: auto, 15%, 5%;
@@ -933,7 +933,7 @@ figcaption {
 }
 
 .section.overflow-hidden {
-  background-image: url('/ost/images/Chesshand.svg');
+  background-image: url('/images/Chesshand.svg');
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: 30%;
@@ -944,7 +944,7 @@ figcaption {
 .section.knight {
   background-color: var(--coal);
   color: var(--100);
-  background-image: url('/ost/images/FordhamF.svg'), linear-gradient(#231f20cf, #231f20cf), url('/ost/images/Paintingcropped.png');
+  background-image: url('/images/FordhamF.svg'), linear-gradient(#231f20cf, #231f20cf), url('/images/Paintingcropped.png');
   background-position: -15% -6%, 0 0, 50% 0;
   background-repeat: no-repeat, repeat, repeat;
   background-size: 25rem, auto, cover;
@@ -1404,7 +1404,7 @@ figcaption {
 .card-item.accent {
   background-color: var(--apple);
   color: var(--100);
-  background-image: url('/ost/images/Cole-Larger.jpg');
+  background-image: url('/images/Cole-Larger.jpg');
   background-position: 100% 0;
   background-size: cover;
   border-radius: 20px;
@@ -1595,7 +1595,7 @@ figcaption {
 
 .schedule-item.break {
   background-color: var(--200);
-  background-image: url('/ost/images/line-pattern.svg');
+  background-image: url('/images/line-pattern.svg');
   background-position: 50%;
   background-repeat: repeat;
   background-size: 4px;
@@ -1743,7 +1743,7 @@ figcaption {
 }
 
 .gradient-divider {
-  background-image: url('/ost/images/bg-no-alpha.jpg'), linear-gradient(45deg, var(--apple), #f6faad 34%, #beff6f 56%, #1ba37f 63%, #6466ff);
+  background-image: url('/images/bg-no-alpha.jpg'), linear-gradient(45deg, var(--apple), #f6faad 34%, #beff6f 56%, #1ba37f 63%, #6466ff);
   background-position: 50%, 0 0;
   background-repeat: repeat, repeat;
   background-size: auto, auto;
@@ -2459,7 +2459,7 @@ figcaption {
 .div-block-7 {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
-  background-image: linear-gradient(#eeece1c9, #eeece1c9), url('/ost/images/plus-bold.svg');
+  background-image: linear-gradient(#eeece1c9, #eeece1c9), url('/images/plus-bold.svg');
   background-position: 0 0, 0 0;
   background-size: auto, 4.5%;
   border-radius: 20px;
@@ -2670,7 +2670,7 @@ figcaption {
   }
 
   .section.knight {
-    background-image: url('/ost/images/FordhamF.svg'), linear-gradient(#231f20cf, #231f20cf), url('/ost/images/Paintingcropped.png');
+    background-image: url('/images/FordhamF.svg'), linear-gradient(#231f20cf, #231f20cf), url('/images/Paintingcropped.png');
     background-size: 20rem, auto, auto;
   }
 
@@ -2915,13 +2915,13 @@ figcaption {
   }
 
   .section.secondary {
-    background-image: linear-gradient(#231f20d4, #231f20d4), url('/ost/images/1STC---Logomark--Large-Knight.svg'), url('/ost/images/FordhamF.svg');
+    background-image: linear-gradient(#231f20d4, #231f20d4), url('/images/1STC---Logomark--Large-Knight.svg'), url('/images/FordhamF.svg');
     background-position: 0 0, 5% 95%, 50%;
     background-size: auto, 35%, 5%;
   }
 
   .section.knight {
-    background-image: url('/ost/images/FordhamF.svg'), linear-gradient(#231f20cf, #231f20cf), url('/ost/images/Paintingcropped.png');
+    background-image: url('/images/FordhamF.svg'), linear-gradient(#231f20cf, #231f20cf), url('/images/Paintingcropped.png');
     background-position: -30% -6%, 0 0, 50% 0;
   }
 
@@ -3306,7 +3306,7 @@ figcaption {
   }
 
   .section.secondary {
-    background-image: linear-gradient(#231f20d4, #231f20d4), url('/ost/images/1STC---Logomark--Large-Knight.svg'), url('/ost/images/FordhamF.svg');
+    background-image: linear-gradient(#231f20d4, #231f20d4), url('/images/1STC---Logomark--Large-Knight.svg'), url('/images/FordhamF.svg');
     background-position: 0 0, 5% 95%, 50%;
     background-size: auto, 50%, 5%;
   }
@@ -3316,7 +3316,7 @@ figcaption {
   }
 
   .section.knight {
-    background-image: url('/ost/images/FordhamF.svg'), linear-gradient(#231f20cf, #231f20cf), url('/ost/images/Paintingcropped.png');
+    background-image: url('/images/FordhamF.svg'), linear-gradient(#231f20cf, #231f20cf), url('/images/Paintingcropped.png');
     background-position: -30% -6%, 0 0, 50% 0;
     background-size: 12rem, auto, auto;
     padding-left: 1rem;
@@ -3758,63 +3758,63 @@ figcaption {
 
 @font-face {
   font-family: 'Kola';
-  src: url('/ost/fonts/Kola-Regular.woff') format('woff');
+  src: url('/fonts/Kola-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Moderngothic';
-  src: url('/ost/fonts/ModernGothic-Medium.otf') format('opentype');
+  src: url('/fonts/ModernGothic-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Moderngothic';
-  src: url('/ost/fonts/ModernGothic-Regular.otf') format('opentype');
+  src: url('/fonts/ModernGothic-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Moderngothic';
-  src: url('/ost/fonts/ModernGothic-BoldItalic.otf') format('opentype');
+  src: url('/fonts/ModernGothic-BoldItalic.otf') format('opentype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Moderngothic';
-  src: url('/ost/fonts/ModernGothic-LightItalic.otf') format('opentype');
+  src: url('/fonts/ModernGothic-LightItalic.otf') format('opentype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Moderngothic';
-  src: url('/ost/fonts/ModernGothic-MediumItalic.otf') format('opentype');
+  src: url('/fonts/ModernGothic-MediumItalic.otf') format('opentype');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Moderngothic';
-  src: url('/ost/fonts/ModernGothic-Italic.otf') format('opentype');
+  src: url('/fonts/ModernGothic-Italic.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Moderngothic';
-  src: url('/ost/fonts/ModernGothic-Light.otf') format('opentype');
+  src: url('/fonts/ModernGothic-Light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Moderngothic';
-  src: url('/ost/fonts/ModernGothic-Bold.otf') format('opentype');
+  src: url('/fonts/ModernGothic-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;

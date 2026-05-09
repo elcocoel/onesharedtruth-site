@@ -1,24 +1,24 @@
 const themes = [
   {
-    icon: '/ost/images/Arbitrage.svg',
+    icon: '/images/Arbitrage.svg',
     title: 'Arbitrage',
     text: 'Market efficiency in fragmented digital markets',
     accent: true,
   },
   {
-    icon: '/ost/images/Tokenization-Apple.svg',
+    icon: '/images/Tokenization-Apple.svg',
     title: 'TOKENIZATION',
     text: 'Of traditional and non-traditional assets',
     accent: false,
   },
   {
-    icon: '/ost/images/STABLE.svg',
+    icon: '/images/STABLE.svg',
     title: 'Stablecoins',
     text: 'As payment, settlement, and liquidity rails',
     accent: false,
   },
   {
-    icon: '/ost/images/Exposure-Apple.svg',
+    icon: '/images/Exposure-Apple.svg',
     title: 'portfolio exposure',
     text: 'Taking on positions and exposure on the ecosystem',
     accent: true,
@@ -81,7 +81,7 @@ export function CoreThemesSection() {
     <>
       <div className="divider">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/ost/images/Vector.svg" alt="" width={72} height={24} loading="lazy" className="image-3" />
+          <img src="/images/Vector.svg" alt="" width={72} height={24} loading="lazy" className="image-3" />
       </div>
       <section id="about" className="section accent">
         <div className="container-large">
@@ -124,7 +124,7 @@ export function CoreThemesSection() {
       </section>
       <div className="divider star-right">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/ost/images/Vector.svg" alt="" width={72} height={24} loading="lazy" className="image-3" />
+          <img src="/images/Vector.svg" alt="" width={72} height={24} loading="lazy" className="image-3" />
       </div>
     </>
   );

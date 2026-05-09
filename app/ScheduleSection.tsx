@@ -92,7 +92,7 @@ function ScheduleItemEvent({ item }: { item: ScheduleItem }) {
       <div className="div-block-7">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/ost/images/Vector.svg"
+          src="/images/Vector.svg"
           alt=""
           loading="lazy"
           className="image-6"
@@ -158,7 +158,7 @@ export function ScheduleSection() {
       <div className="divider">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/ost/images/Vector.svg"
+          src="/images/Vector.svg"
           alt=""
           width={72}
           height={24}

@@ -7,14 +7,14 @@ export function PartnersSection() {
           <div className="social-proof-logos-wrapper">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/ost/images/FSC-Logo-1-Vectorized.svg"
+              src="/images/FSC-Logo-1-Vectorized.svg"
               alt="Family Stewardship Council"
               className="social-proof-logo"
               loading="lazy"
             />
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/ost/images/MoonPay.svg"
+              src="/images/MoonPay.svg"
               alt="MoonPay"
               className="social-proof-logo"
               loading="lazy"

@@ -97,7 +97,7 @@ export function FAQSection() {
                     </h3>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src="/ost/images/Vector.svg"
+                      src="/images/Vector.svg"
                       alt=""
                       width={12}
                       height={12}
